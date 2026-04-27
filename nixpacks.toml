@@ -1,8 +1,5 @@
 [phases.setup]
-nixPkgs = ["python312", "gettext"]
-
-[phases.install]
-cmds = ["pip install -r requirements.txt"]
+nixPkgs = ["gettext"]
 
 [phases.build]
 cmds = [
