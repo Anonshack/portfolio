@@ -1,0 +1,30 @@
+# English translations (passthrough — msgstr same as msgid)
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "Kudratbek"
+msgstr "Kudratbek"
+
+msgid "Kazakjonov"
+msgstr "Kazakjonov"
+
+msgid "Projects"
+msgstr "Projects"
+
+msgid "Work"
+msgstr "Work"
+
+msgid "Live Demo"
+msgstr "Live Demo"
+
+msgid "Projects coming soon..."
+msgstr "Projects coming soon..."
+
+msgid "Read more"
+msgstr "Read more"
+
+msgid "Show less"
+msgstr "Show less"

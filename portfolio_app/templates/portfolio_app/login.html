@@ -1,0 +1,80 @@
+{% load i18n static %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% trans "Login" %} — KK Portfolio</title>
+<link rel="icon" type="static/portfolio_app/img/me.jpeg" href="https://cdn-icons-png.flaticon.com/512/10003/10003692.png">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#080810;--surface:#1a1a28;--accent:#7c6fff;--accent2:#ff6b8a;--accent3:#3de8b0;--text:#eeeeff;--text2:#9090b8;--border:#252538;--radius:14px}
+body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem;position:relative;-webkit-font-smoothing:antialiased}
+body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse 60% 50% at 50% 30%,rgba(124,111,255,.1) 0%,transparent 70%);pointer-events:none}
+.auth-box{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:2.5rem;width:100%;max-width:400px;position:relative}
+.auth-logo{text-align:center;margin-bottom:1.75rem}
+.auth-logo .logo{font-size:1.5rem;font-weight:800;color:var(--accent)}
+.auth-logo p{color:var(--text2);font-size:.88rem;margin-top:.4rem}
+h2{font-size:1.6rem;font-weight:800;margin-bottom:.4rem;letter-spacing:-.03em}
+.auth-subtitle{color:var(--text2);font-size:.88rem;margin-bottom:1.75rem}
+.auth-subtitle a{color:var(--accent);font-weight:600}
+.form-group{margin-bottom:.85rem}
+.form-group label{display:block;font-size:.8rem;font-weight:600;color:var(--text2);margin-bottom:.4rem;letter-spacing:.02em;text-transform:uppercase}
+.form-input{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:.82rem 1rem;color:var(--text);font-family:inherit;font-size:.9rem;font-weight:500;outline:none;transition:border .2s,box-shadow .2s;width:100%}
+.form-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(124,111,255,.12)}
+.form-input::placeholder{color:var(--text2);font-weight:400}
+.field-error{font-size:.78rem;color:var(--accent2);margin-top:.25rem}
+.btn-submit{background:var(--accent);color:#fff;padding:.82rem;border-radius:10px;font-weight:700;font-size:.95rem;cursor:pointer;border:none;font-family:inherit;transition:all .25s;width:100%;margin-top:.5rem}
+.btn-submit:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(124,111,255,.35);background:#8d83ff}
+.back-link{display:block;text-align:center;margin-top:1.1rem;color:var(--text2);font-size:.85rem}
+.back-link a{color:var(--accent);font-weight:600}
+.django-messages{margin-bottom:1rem}
+.msg-item{padding:.65rem .9rem;border-radius:9px;font-size:.83rem;font-weight:600;margin-bottom:.5rem}
+.msg-item.error{background:rgba(255,107,138,.1);color:var(--accent2);border:1px solid rgba(255,107,138,.3)}
+.msg-item.success{background:rgba(61,232,176,.1);color:var(--accent3);border:1px solid rgba(61,232,176,.3)}
+.non-field-errors .field-error{margin-bottom:.6rem;padding:.6rem .9rem;background:rgba(255,107,138,.08);border-radius:8px;border:1px solid rgba(255,107,138,.2)}
+</style>
+</head>
+<body>
+<div class="auth-box">
+  <div class="auth-logo">
+    <div class="logo">KK</div>
+    <p>Kudratbek Kazakjonov — Portfolio</p>
+  </div>
+  <h2>{% trans "Welcome back" %} 👋</h2>
+  <p class="auth-subtitle">{% trans "Don't have an account?" %} <a href="{% url 'register' %}">{% trans "Register" %}</a></p>
+
+  {% if messages %}
+  <div class="django-messages">
+    {% for message in messages %}
+    <div class="msg-item {{ message.tags }}">{{ message }}</div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <form method="post">
+    {% csrf_token %}
+    {% if form.non_field_errors %}
+    <div class="non-field-errors">
+      {% for error in form.non_field_errors %}
+      <div class="field-error">{{ error }}</div>
+      {% endfor %}
+    </div>
+    {% endif %}
+    <div class="form-group">
+      <label>{% trans "Username" %}</label>
+      {{ form.username }}
+      {% for error in form.username.errors %}<div class="field-error">{{ error }}</div>{% endfor %}
+    </div>
+    <div class="form-group">
+      <label>{% trans "Password" %}</label>
+      {{ form.password }}
+      {% for error in form.password.errors %}<div class="field-error">{{ error }}</div>{% endfor %}
+    </div>
+    <button type="submit" class="btn-submit">{% trans "Login" %} →</button>
+  </form>
+  <div class="back-link"><a href="{% url 'home' %}">← {% trans "Back to portfolio" %}</a></div>
+</div>
+</body>
+</html>

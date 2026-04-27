@@ -1,0 +1,258 @@
+# Russian translations for KK Portfolio
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "About"
+msgstr "Обо мне"
+
+msgid "Skills"
+msgstr "Навыки"
+
+msgid "Services"
+msgstr "Услуги"
+
+msgid "Reviews"
+msgstr "Отзывы"
+
+msgid "Contact"
+msgstr "Контакт"
+
+msgid "Welcome to my portfolio"
+msgstr "Добро пожаловать в моё портфолио"
+
+msgid "Hello"
+msgstr "Привет"
+
+msgid "I'm a"
+msgstr "Я"
+
+msgid "with 3+ years of experience building scalable web applications, REST APIs, and Telegram bots."
+msgstr "Backend разработчик с 3+ годами опыта создания масштабируемых веб-приложений, REST API и Telegram ботов."
+
+msgid "Hire Me"
+msgstr "Нанять меня"
+
+msgid "My Skills"
+msgstr "Мои навыки"
+
+msgid "am I?"
+msgstr "я?"
+
+msgid "Who"
+msgstr "Кто"
+
+msgid "Backend Developer specializing in Python Django, with strong experience in building scalable web applications and automation tools. Skilled in Django Rest Framework, FastAPI, Docker, WebSocket, PostgreSQL, and Telegram Bot development."
+msgstr "Backend-разработчик, специализирующийся на Python Django, с большим опытом создания масштабируемых веб-приложений и инструментов автоматизации. Навыки: DRF, FastAPI, Docker, WebSocket, PostgreSQL и разработка Telegram-ботов."
+
+msgid "I love solving complex problems, writing clean code, and building products that make a real difference. I'm also passionate about teaching and sharing knowledge."
+msgstr "Люблю решать сложные задачи, писать чистый код и создавать продукты, которые реально меняют ситуацию. Также увлечён преподаванием и обменом знаниями."
+
+msgid "Years Experience"
+msgstr "Лет опыта"
+
+msgid "Projects Done"
+msgstr "Проектов"
+
+msgid "Telegram Bots"
+msgstr "Telegram Ботов"
+
+msgid "Technologies"
+msgstr "Технологий"
+
+msgid "My"
+msgstr "Мой"
+
+msgid "Stack"
+msgstr "стек"
+
+msgid "What I"
+msgstr "Что я"
+
+msgid "Do"
+msgstr "делаю?"
+
+msgid "Backend Development"
+msgstr "Backend разработка"
+
+msgid "Building backend systems for multi-page websites and web applications, including user registration, authentication, payment integrations, subscription systems, and analytics. Developing CRM, LMS, and admin panels for hotels, restaurants, schools, online stores, and blogs."
+msgstr "Создание backend систем для многостраничных сайтов и приложений: регистрация, авторизация, платежи, подписки, аналитика. CRM, LMS и админ-панели для отелей, ресторанов, школ, интернет-магазинов и блогов."
+
+msgid "Developing multifunctional Telegram bots for restaurants, fast-food chains, and educational centers with full payment system integration and advanced analytics. Building moderator bots, auto-posting tools, and scrapers that collect data from websites in seconds."
+msgstr "Разработка многофункциональных Telegram-ботов для ресторанов, фастфуда и учебных центров с платёжными системами и аналитикой. Боты-модераторы, автопостинг и парсеры данных."
+
+msgid "API Integrations"
+msgstr "API Интеграции"
+
+msgid "Connecting third-party services, payment systems, and external APIs into seamless integrations."
+msgstr "Подключение сторонних сервисов, платёжных систем и внешних API."
+
+msgid "DevOps & Deployment"
+msgstr "DevOps и деплой"
+
+msgid "Containerizing apps with Docker, setting up Linux servers, Git workflows and CI/CD pipelines."
+msgstr "Контейнеризация с Docker, настройка Linux серверов, Git и CI/CD пайплайны."
+
+msgid "What people"
+msgstr "Что говорят"
+
+msgid "say"
+msgstr "люди?"
+
+msgid "No reviews yet. Be the first!"
+msgstr "Отзывов пока нет. Будьте первым!"
+
+msgid "Leave a Review"
+msgstr "Оставить отзыв"
+
+msgid "Your Name"
+msgstr "Ваше имя"
+
+msgid "Share your experience working with me..."
+msgstr "Поделитесь опытом работы со мной..."
+
+msgid "Post Review"
+msgstr "Отправить"
+
+msgid "Login or register to leave a review"
+msgstr "Войдите или зарегистрируйтесь, чтобы оставить отзыв"
+
+msgid "Login"
+msgstr "Войти"
+
+msgid "Register"
+msgstr "Регистрация"
+
+msgid "Have a project in mind or want to work together? Feel free to reach out — I respond quickly."
+msgstr "Есть проект или хотите работать вместе? Напишите мне — отвечаю быстро."
+
+msgid "Uzbekistan, Tashkent"
+msgstr "Узбекистан, Ташкент"
+
+msgid "Your Email"
+msgstr "Ваш Email"
+
+msgid "Your Message"
+msgstr "Ваше сообщение"
+
+msgid "Send Message"
+msgstr "Отправить"
+
+msgid "Sending..."
+msgstr "Отправка..."
+
+msgid "Message sent successfully!"
+msgstr "Сообщение успешно отправлено!"
+
+msgid "Error sending. Try again."
+msgstr "Ошибка отправки. Попробуйте снова."
+
+msgid "Please fill in all fields."
+msgstr "Пожалуйста, заполните все поля."
+
+msgid "Made with passion"
+msgstr "Сделано с душой"
+
+msgid "Get In"
+msgstr "Связаться"
+
+msgid "Touch"
+msgstr ""
+
+msgid "Logout"
+msgstr "Выйти"
+
+msgid "Create Account"
+msgstr "Создать аккаунт"
+
+msgid "Already have an account?"
+msgstr "Уже есть аккаунт?"
+
+msgid "First Name"
+msgstr "Имя"
+
+msgid "Last Name"
+msgstr "Фамилия"
+
+msgid "Username"
+msgstr "Имя пользователя"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Confirm"
+msgstr "Подтвердить"
+
+msgid "Back to portfolio"
+msgstr "Назад к портфолио"
+
+msgid "Welcome back"
+msgstr "С возвращением"
+
+msgid "Don't have an account?"
+msgstr "Нет аккаунта?"
+
+msgid "Registration successful! Welcome!"
+msgstr "Регистрация прошла успешно! Добро пожаловать!"
+
+msgid "Please fix the errors below."
+msgstr "Пожалуйста, исправьте ошибки ниже."
+
+msgid "Invalid username or password."
+msgstr "Неверное имя пользователя или пароль."
+
+msgid "Welcome back!"
+msgstr "С возвращением!"
+
+msgid "You have been logged out."
+msgstr "Вы вышли из системы."
+
+msgid "Your review has been posted!"
+msgstr "Ваш отзыв опубликован!"
+
+msgid "Please fix the errors."
+msgstr "Исправьте ошибки."
+
+msgid "Full Name"
+msgstr "Полное имя"
+
+msgid "Rating"
+msgstr "Рейтинг"
+
+msgid "Review text"
+msgstr "Текст отзыва"
+
+msgid "Approved"
+msgstr "Одобрен"
+
+msgid "Review"
+msgstr "Отзыв"
+
+msgid "Kudratbek"
+msgstr "Кудратбек"
+
+msgid "Kazakjonov"
+msgstr "Казакжонов"
+
+msgid "Projects"
+msgstr "Проекты"
+
+msgid "Work"
+msgstr "Работы"
+
+msgid "Live Demo"
+msgstr "Демо"
+
+msgid "Projects coming soon..."
+msgstr "Проекты скоро появятся..."
+
+msgid "Read more"
+msgstr "Подробнее"
+
+msgid "Show less"
+msgstr "Свернуть"

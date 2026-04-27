@@ -1,0 +1,258 @@
+# Uzbek translations for KK Portfolio
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uz\n"
+
+msgid "About"
+msgstr "Men haqimda"
+
+msgid "Skills"
+msgstr "Ko'nikmalar"
+
+msgid "Services"
+msgstr "Xizmatlar"
+
+msgid "Reviews"
+msgstr "Fikrlar"
+
+msgid "Contact"
+msgstr "Aloqa"
+
+msgid "Welcome to my portfolio"
+msgstr "Portfoliomga xush kelibsiz"
+
+msgid "Hello"
+msgstr "Salom"
+
+msgid "I'm a"
+msgstr "Men"
+
+msgid "with 3+ years of experience building scalable web applications, REST APIs, and Telegram bots."
+msgstr "3+ yillik tajribaga ega bo'lgan Backend Dasturchiman. Masshtablanadigan veb-ilovalar, REST API va Telegram botlar yarataman."
+
+msgid "Hire Me"
+msgstr "Yollash"
+
+msgid "My Skills"
+msgstr "Ko'nikmalarim"
+
+msgid "am I?"
+msgstr "kimman?"
+
+msgid "Who"
+msgstr "Men"
+
+msgid "Backend Developer specializing in Python Django, with strong experience in building scalable web applications and automation tools. Skilled in Django Rest Framework, FastAPI, Docker, WebSocket, PostgreSQL, and Telegram Bot development."
+msgstr "Python Django yo'nalishiga ixtisoslashgan Backend Developer. DRF, FastAPI, Docker, WebSocket, PostgreSQL va Telegram bot ishlab chiqishda katta tajribaga ega."
+
+msgid "I love solving complex problems, writing clean code, and building products that make a real difference. I'm also passionate about teaching and sharing knowledge."
+msgstr "Murakkab muammolarni hal qilish, toza kod yozish va haqiqiy farq yaratadigan mahsulotlar qurishni yaxshi ko'raman. O'qitish va bilim ulashishga ham ishtiyoqim bor."
+
+msgid "Years Experience"
+msgstr "Yil tajriba"
+
+msgid "Projects Done"
+msgstr "Loyihalar"
+
+msgid "Telegram Bots"
+msgstr "Telegram Botlar"
+
+msgid "Technologies"
+msgstr "Texnologiyalar"
+
+msgid "My"
+msgstr "Mening"
+
+msgid "Stack"
+msgstr "Stackim"
+
+msgid "What I"
+msgstr "Men nima"
+
+msgid "Do"
+msgstr "Qilaman?"
+
+msgid "Backend Development"
+msgstr "Backend Dasturlash"
+
+msgid "Building backend systems for multi-page websites and web applications, including user registration, authentication, payment integrations, subscription systems, and analytics. Developing CRM, LMS, and admin panels for hotels, restaurants, schools, online stores, and blogs."
+msgstr "Ko'p sahifali veb-saytlar va ilovalar uchun backend tizimlarini quramiz. Foydalanuvchi ro'yxatdan o'tishi, autentifikatsiya, to'lov integratsiyalari, obuna tizimlari va analitika. Mehmonxonalar, restoranlar, maktablar, onlayn do'konlar va bloglar uchun CRM, LMS va admin panellar."
+
+msgid "Developing multifunctional Telegram bots for restaurants, fast-food chains, and educational centers with full payment system integration and advanced analytics. Building moderator bots, auto-posting tools, and scrapers that collect data from websites in seconds."
+msgstr "Restoranlar, fast-food va o'quv markazlari uchun to'liq to'lov tizimi va analitika bilan Telegram botlar yaratamiz. Moderator botlar, avto-post vositalari va soniyalar ichida ma'lumot yig'uvchi scraperlar."
+
+msgid "API Integrations"
+msgstr "API Integratsiyalar"
+
+msgid "Connecting third-party services, payment systems, and external APIs into seamless integrations."
+msgstr "Uchinchi tomon xizmatlar, to'lov tizimlari va tashqi APIlarni ulash."
+
+msgid "DevOps & Deployment"
+msgstr "DevOps va Joylashtirish"
+
+msgid "Containerizing apps with Docker, setting up Linux servers, Git workflows and CI/CD pipelines."
+msgstr "Docker bilan konteynerlash, Linux serverlarini sozlash, Git workflow va CI/CD."
+
+msgid "What people"
+msgstr "Odamlar nima"
+
+msgid "say"
+msgstr "deydi?"
+
+msgid "No reviews yet. Be the first!"
+msgstr "Hali fikrlar yo'q. Birinchi bo'ling!"
+
+msgid "Leave a Review"
+msgstr "Fikr qoldiring"
+
+msgid "Your Name"
+msgstr "Ismingiz"
+
+msgid "Share your experience working with me..."
+msgstr "Men bilan ishlash tajribangizni ulashing..."
+
+msgid "Post Review"
+msgstr "Yuborish"
+
+msgid "Login or register to leave a review"
+msgstr "Fikr qoldirish uchun kirish yoki ro'yxatdan o'ting"
+
+msgid "Login"
+msgstr "Kirish"
+
+msgid "Register"
+msgstr "Ro'yxatdan o'tish"
+
+msgid "Have a project in mind or want to work together? Feel free to reach out — I respond quickly."
+msgstr "Loyihangiz bormi yoki birgalikda ishlashni xohlaysizmi? Murojaat qiling — tezda javob beraman."
+
+msgid "Uzbekistan, Tashkent"
+msgstr "O'zbekiston, Toshkent"
+
+msgid "Your Email"
+msgstr "Emailingiz"
+
+msgid "Your Message"
+msgstr "Xabaringiz"
+
+msgid "Send Message"
+msgstr "Yuborish"
+
+msgid "Sending..."
+msgstr "Yuborilmoqda..."
+
+msgid "Message sent successfully!"
+msgstr "Xabar muvaffaqiyatli yuborildi!"
+
+msgid "Error sending. Try again."
+msgstr "Xatolik yuz berdi. Qayta urining."
+
+msgid "Please fill in all fields."
+msgstr "Iltimos, barcha maydonlarni kiriting."
+
+msgid "Made with passion"
+msgstr "Ishtiyoq bilan yaratilgan"
+
+msgid "Get In"
+msgstr "Bog'lanish"
+
+msgid "Touch"
+msgstr ""
+
+msgid "Logout"
+msgstr "Chiqish"
+
+msgid "Create Account"
+msgstr "Hisob yaratish"
+
+msgid "Already have an account?"
+msgstr "Hisobingiz bormi?"
+
+msgid "First Name"
+msgstr "Ism"
+
+msgid "Last Name"
+msgstr "Familiya"
+
+msgid "Username"
+msgstr "Foydalanuvchi nomi"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Password"
+msgstr "Parol"
+
+msgid "Confirm"
+msgstr "Tasdiqlash"
+
+msgid "Back to portfolio"
+msgstr "Portfolioga qaytish"
+
+msgid "Welcome back"
+msgstr "Xush kelibsiz"
+
+msgid "Don't have an account?"
+msgstr "Hisobingiz yo'qmi?"
+
+msgid "Registration successful! Welcome!"
+msgstr "Ro'yxatdan o'tish muvaffaqiyatli! Xush kelibsiz!"
+
+msgid "Please fix the errors below."
+msgstr "Quyidagi xatolarni to'g'rilang."
+
+msgid "Invalid username or password."
+msgstr "Noto'g'ri foydalanuvchi nomi yoki parol."
+
+msgid "Welcome back!"
+msgstr "Xush kelibsiz!"
+
+msgid "You have been logged out."
+msgstr "Tizimdan chiqdingiz."
+
+msgid "Your review has been posted!"
+msgstr "Fikringiz qo'shildi!"
+
+msgid "Please fix the errors."
+msgstr "Xatolarni to'g'rilang."
+
+msgid "Full Name"
+msgstr "To'liq ism"
+
+msgid "Rating"
+msgstr "Reyting"
+
+msgid "Review text"
+msgstr "Fikr matni"
+
+msgid "Approved"
+msgstr "Tasdiqlangan"
+
+msgid "Review"
+msgstr "Fikr"
+
+msgid "Kudratbek"
+msgstr "Kudratbek"
+
+msgid "Kazakjonov"
+msgstr "Kazakjonov"
+
+msgid "Projects"
+msgstr "Loyihalar"
+
+msgid "Work"
+msgstr "Ishlarim"
+
+msgid "Live Demo"
+msgstr "Ko'rish"
+
+msgid "Projects coming soon..."
+msgstr "Loyihalar tez orada..."
+
+msgid "Read more"
+msgstr "Batafsil"
+
+msgid "Show less"
+msgstr "Yig'ish"
