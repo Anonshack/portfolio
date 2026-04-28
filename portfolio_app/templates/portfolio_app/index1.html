@@ -543,22 +543,21 @@ footer span{color:var(--accent)}
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
 // ================================================================
-// THEME — body ga qo'llash (html ga emas)
-// ================================================================
+// THEME
 (function(){
   try{
     var t = localStorage.getItem('kk_theme') || 'dark';
-    document.body.setAttribute('data-theme', t);
+    document.documentElement.setAttribute('data-theme', t);
     var btn = document.getElementById('theme-btn');
     if(btn) btn.textContent = t === 'light' ? '☀️' : '🌙';
   }catch(e){}
 })();
 
 function toggleTheme(){
-  var body = document.body;
-  var isLight = body.getAttribute('data-theme') === 'light';
+  var html = document.documentElement;
+  var isLight = html.getAttribute('data-theme') === 'light';
   var newTheme = isLight ? 'dark' : 'light';
-  body.setAttribute('data-theme', newTheme);
+  html.setAttribute('data-theme', newTheme);
   var btn = document.getElementById('theme-btn');
   if(btn) btn.textContent = isLight ? '🌙' : '☀️';
   try{ localStorage.setItem('kk_theme', newTheme); }catch(e){}
