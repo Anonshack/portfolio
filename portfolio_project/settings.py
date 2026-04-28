@@ -2,16 +2,12 @@ import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+CSRF_TRUSTED_ORIGINS = ['https://kudratbekh.up.railway.app/']
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-change-me-in-production-please')
 
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 ALLOWED_HOSTS = ['*']
-
-CSRF_TRUSTED_ORIGINS = [
-    h.strip() for h in os.environ.get('CSRF_TRUSTED_ORIGINS', '').split(',') if h.strip()
-]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
