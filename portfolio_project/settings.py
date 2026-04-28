@@ -2,12 +2,20 @@ import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-CSRF_TRUSTED_ORIGINS = ['https://kudratbekh.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = [
+    "https://kudratbekh.up.railway.app"
+]
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-change-me-in-production-please')
 
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    "kudratbekh.up.railway.app",
+    "localhost",
+    "127.0.0.1"
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
